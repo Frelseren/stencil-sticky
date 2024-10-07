@@ -1,0 +1,10 @@
+.sticky-container {
+  position: sticky;
+  display: block;
+  bottom: -1px; // Required for the intersection observer to work
+  margin-bottom: 1px;
+
+  &--stuck {
+    box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.1);
+  }
+}

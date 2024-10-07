@@ -1,0 +1,81 @@
+<!doctype html><html dir="ltr" lang="en"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"> <title>Stencil Component Starter</title> <style>html,
+      body {
+        font-family: "Lato", sans-serif;
+        box-sizing: border-box;
+        background-color: #cacaca;
+        font-size: 1rem;
+      }
+
+      .panel {
+        max-width: 480px;
+        max-height: 480px;
+        margin: 48px auto;
+        overflow: auto;
+        background-color: #fff;
+        border-radius: 8px;
+      }
+
+      .panel-content {
+        padding: 24px;
+      }
+
+      .checkbox {
+        padding: 16px;
+        background-color: #fff;
+      }</style> <script type="module" src="/build/demo-components.esm.js" data-stencil></script> <script nomodule="" src="/build/demo-components.js" data-stencil></script> </head> <body> <div class="panel"> <div class="panel-content"> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          mollis aliquam quam, eu rutrum sem venenatis quis. Sed vitae magna mi.
+          In in libero sed mi eleifend pharetra non non nunc. Suspendisse
+          potenti. Sed blandit massa at pellentesque ullamcorper. Nunc malesuada
+          est consequat, ullamcorper ex nec, blandit ex. Suspendisse hendrerit
+          egestas ligula tincidunt aliquet. Ut quis quam facilisis, vulputate
+          purus a, viverra metus. Nullam pharetra auctor eros, in feugiat nunc
+          tincidunt ullamcorper. Quisque condimentum leo non pharetra efficitur.
+          Proin diam est, molestie vel mattis eget, interdum non erat. Praesent
+          metus eros, dictum a pellentesque quis, sollicitudin in mi. Phasellus
+          vulputate urna ut metus lacinia mattis. Maecenas pulvinar elit orci,
+          nec posuere dolor suscipit in. </p> <p> Aenean ultrices in nisi nec vulputate. Maecenas eu lectus leo.
+          Praesent feugiat mauris ut turpis faucibus, non egestas mi iaculis.
+          Etiam semper aliquam nulla, ut consequat orci molestie quis.
+          Pellentesque auctor ipsum rhoncus auctor malesuada. Proin eu sapien
+          consequat, egestas massa vel, feugiat metus. Morbi at efficitur metus,
+          non placerat leo. Integer placerat elementum velit ac luctus.
+          Suspendisse ac congue enim. Proin a turpis id mauris iaculis mollis.
+          Nunc convallis gravida bibendum. </p> <p> Integer quis dui ac sapien fermentum faucibus id quis turpis. Ut quam
+          odio, convallis non maximus ut, fermentum eu ipsum. Aenean accumsan
+          vel odio vitae egestas. Etiam convallis bibendum mi, vitae commodo
+          libero fringilla vitae. Ut blandit nisl non erat cursus, id pharetra
+          urna venenatis. Nam dignissim diam eu scelerisque ultricies. Phasellus
+          id vehicula dolor. Ut rhoncus massa ac arcu posuere, quis maximus arcu
+          fringilla. Suspendisse scelerisque imperdiet velit sed blandit.
+          Quisque ut lobortis massa. Fusce sit amet velit ut nisl pharetra
+          fringilla. </p> <p> Mauris nec nunc felis. Nullam a orci eu mi faucibus tristique. Donec
+          sodales vitae mauris id posuere. Morbi vel arcu a erat scelerisque
+          imperdiet. Quisque iaculis at quam vel ultricies. Nunc sit amet eros
+          feugiat, cursus nunc in, euismod mi. Proin dolor nulla, laoreet a
+          ligula sit amet, dapibus bibendum metus. Nullam ac erat ut velit
+          rhoncus semper. Pellentesque habitant morbi tristique senectus et
+          netus et malesuada fames ac turpis egestas. Sed ultrices, dolor eu
+          faucibus auctor, risus purus fermentum nisi, sed dapibus ante erat ac
+          nulla. Mauris id pharetra libero, eu auctor metus. Fusce ac facilisis
+          arcu. Phasellus purus ligula, tincidunt eget urna at, maximus dapibus
+          felis. </p> <p> Vivamus iaculis egestas finibus. Integer a lacus nibh. Pellentesque
+          eget nunc nisi. Donec consequat non sem quis posuere. Nam mollis
+          turpis vitae mauris sagittis aliquam. Cras diam ex, posuere a libero
+          efficitur, accumsan rhoncus orci. Quisque tempus purus leo, eget
+          molestie lacus consequat vitae. Vestibulum consequat gravida felis, a
+          molestie nibh tempor ut. Nulla auctor faucibus cursus. Nunc
+          condimentum diam id nunc pretium commodo. Aliquam magna sem, dapibus
+          eu fermentum ac, viverra vitae urna. Donec vitae elit felis. Interdum
+          et malesuada fames ac ante ipsum primis in faucibus. Maecenas
+          consequat, tellus sit amet maximus facilisis, mi enim auctor orci,
+          quis hendrerit ex massa vel ligula. Vestibulum euismod rutrum
+          molestie. Nullam venenatis fermentum leo id vehicula. </p> </div> <sticky-container> <div class="checkbox"> <label> <input type="checkbox"> Accept terms and conditions </label> </div> </sticky-container> </div> <script>
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  // auto-unregister service worker during dev mode
+  navigator.serviceWorker.getRegistration().then(function(registration) {
+    if (registration) {
+      registration.unregister().then(function() { location.reload(true) });
+    }
+  });
+}
+</script></body></html>

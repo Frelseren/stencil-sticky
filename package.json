@@ -1,0 +1,38 @@
+{
+  "name": "my-demo-input",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/byc-components/byc-components.js",
+  "repository": "https://smaf.de.cgi.com/bitbucket/projects/BYCOCKPIT/repos/byc-components/browse",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "deploy:local": "npm run build && yalc publish",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.22.0",
+    "@stencil/sass": "^3.0.12",
+    "@types/jest": "29.5.13",
+    "@types/node": "^22.7.4",
+    "@types/puppeteer": "5.4.7",
+    "jest": "29.7.0",
+    "jest-cli": "29.7.0",
+    "puppeteer": "23.5.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}
